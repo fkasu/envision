@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body{
+    background-color: #EEEEEE;
+}
+
+.BlogDetailedArticle .title{
+    padding-top: 2%;
+}
+.BlogDetailedArticle .title h3 {
+    font-size: 1.375em;
+    color: #444e69;
+    margin: 0;
+}
+.BlogDetailedArticle .title h3 a{
+    line-height: 1.35em;
+    color: #444e69;
+}
+.BlogDetailedArticle .title h3 a:hover{
+    text-decoration: none;
+    color: #444e69;
+    cursor: pointer;
+}
+.BlogDetailedArticle .titleIcon{
+    position: relative;
+    padding: 0;
+}
+.BlogDetailedArticle .titleIcon a{
+    position: absolute;
+    top: 0.6em;
+    left: 1.3em;
+    color: #444e69;
+}
+.BlogDetailedArticle .titleIcon a:hover{
+    text-decoration: none;
+    color: #444e69;
+    cursor: pointer;
+}
+.BlogDetailedArticle .titleData{
+    color: #999999;
+    margin: 0.5em 0;
+}
+.BlogDetailedArticle .content p{
+    margin-top: 1.5em;
+    padding-right: 2em;
+}
+.BlogDetailedArticle .content h6{
+    margin: 2em 0;
+}
+.BlogDetailedArticle .content span a{
+    text-decoration: underline;
+    margin: 2em 0;
+}
+.BlogDetailedArticle .content>img{
+    float: left;
+}
+.BlogDetailedArticle .page{
+    font-family: "HattoriHanzoLight", Calibri, sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    background: url("../images/bg12.png") no-repeat;
+    width: 106px;
+}
+.BlogDetailedArticle .page p{
+    line-height: 45px;
+}
+.BlogDetailedArticle .page img{
+    margin-bottom: 2px;
+}
+.BlogDetailedArticle .page p a:first-child{
+    color: #999999;
+}
+/*.BlogDetailedArticle .page{*/
+    /*position: relative;*/
+    /*margin-left: 2em;*/
+/*}*/
+/*.BlogDetailedArticle .page span{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 5em;*/
+/*}*/

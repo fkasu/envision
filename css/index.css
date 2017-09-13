@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+.index .welcome_icon {
+    background: url(../images/title_bar_bg.gif);
+    background-repeat: repeat;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.index .welcome_icon h1 {
+    color: #444e69;
+    text-shadow: 0px 1px 1px #f2f2f2;
+    margin: 0 0 4px 0;
+    display: block;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.index .welcome_icon span {
+    color: #2e88c7;
+}
+
+.index .bar_right a {
+    text-decoration: none;
+}
+
+.index .bar_right p {
+    background: url("../images/buttons.png") no-repeat;
+    font-size: 1.125em;
+    width: 177px;
+    height: 52px;
+    text-align: center;
+    line-height: 48px;
+    color: #2f3850;
+    margin: 0 auto;
+}
+
+.index .content_box {
+    background-color: #eeeeee;
+
+}
+
+.index .content_box_1 {
+    padding-bottom: 40px;
+    border-bottom: 2px dashed #cccccc;
+}
+
+.index .content h2 {
+    color: #2e88c7;
+    font-size: 19px;
+}
+
+.index .content .temp_img {
+    float: right;
+}
+
+.index .content span {
+    color: #2e88c7;
+}
+
+.index .content_box .box_white {
+    background-color: white;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.index .index .box_white .quote_box {
+    margin: 0 6px;
+}
+
+.index .box_white img {
+    float: left;
+}
+
+.index .content_box .inner {
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+.index .inner h3 {
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.index .inner span {
+    color: #2e88c7;
+    font-size: 17px;
+}
+
+.index .inner p {
+    text-align: right;
+}
+
+.index .inner p span {
+    color: #6a3b66;
+    font-size: 13px;
+}
+
+.index .mail_box {
+    margin: 20px auto;
+    width: 280px;
+    height: 147px;
+    background: url("../images/newsletter_bg.gif") no-repeat;
+    position: relative;
+}
+
+.index .mail_box h2 {
+    font-size: 19px;
+    padding: 0;
+    margin: 0 0 0 60px;
+    line-height: 40px;
+}
+
+.index .mail_box img {
+    position: absolute;
+    top: -5px;
+    left: 20px;
+}
+
+.index .mail_box p {
+    color: #999;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.index .input_box {
+    width: 256px;
+    height: 36px;
+    margin: 0 auto;
+
+
+}
+
+.index .input_box .input {
+    border: none;
+    padding: 7px;
+    width: 220px;
+    outline: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+
+}
+
+.index .input_box .input_1 {
+    border: none;
+    padding: 7px;
+    width: 36px;
+    float: right;
+    outline: none;
+    background: url("../images/newsletter_input.gif") right no-repeat;
+}
+
+.index .tab_box {
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    background: url(../images/tabs_bg.gif) left top no-repeat;
+}
+
+.index .tab_title {
+    line-height: 40px;
+    border-bottom: 1px solid #c0c0c0
+}
+
+.index .tab_title span {
+    font-size: 19px;
+    color: #222;
+    text-shadow: #fff 0 1px 1px;
+    line-height: 40px;
+    padding-left: 25px;
+    font-weight: normal;
+    margin: 0 !important;
+}
+
+.index .tabBox .tabs li {
+    list-style: none;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.index .tabs {
+    float: right;
+    line-height: 40px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.index .tabs a {
+    padding: 0 !important;
+}
+
+.current {
+    background: url(../images/tabs_active_bg.gif) 0 0 no-repeat !important;
+}
+
+.index .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: transparent !important;
+}
+
+.index .tabcontent {
+    background-color: #ffffff;
+}
+
+.index .tabcontent .tab_temp {
+    padding: 15px;
+}
+
+.index .tabcontent .tab_temp img {
+    padding: 10px 0;
+}
+
+.index .tabcontent .tab_temp p {
+    color: #2e88c7;
+    font-size: 19px;
+}

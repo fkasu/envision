@@ -1,0 +1,109 @@
+.portfilio_2 .welcome_icon {
+    background: url(../images/title_bar_bg.gif);
+    background-repeat: repeat;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.portfilio_2 .welcome_icon h1 {
+    color: #444e69;
+    text-shadow: 0px 1px 1px #f2f2f2;
+    margin: 0 0 4px 0;
+    display: block;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.portfilio_2 .welcome_icon span {
+    color: #2e88c7;
+}
+
+.portfilio_2 .welcome_icon .bar_right {
+    background: url("../images/search_form_bg.png") no-repeat;
+    display: inline-block;
+    width: 19em;
+    height: 4em;
+}
+
+.portfilio_2 .welcome_icon .bar_right input {
+    margin-top: 4%;
+    border: 0;
+    outline: none;
+    background-color: #fafafa;
+}
+
+.portfilio_2 .welcome_icon .bar_right .my-searchImg2 {
+    float: right;
+    margin-top: 3%;
+    margin-right: 7%;
+}
+
+.portfilio_2 .midBox {
+    padding-top: 15px;
+    background: #eeeeee;
+}
+
+.portfilio_2 .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.portfilio_2 .firstImg img, .portfilio_2 .secondImg img {
+    width: 100%;
+}
+
+.portfilio_2 .firstImg p {
+    font-size: 0.1em;
+}
+
+.portfilio_2 .p {
+    font-size: 1em !important;
+    color: #00b3ee !important;
+
+}
+
+.portfilio_2 .col-xs-6 i {
+    color: #00b3ee;
+    font-size: 0.1em;
+}
+
+.portfilio_2 .secondImg p {
+    font-size: 0.1em;
+}
+
+.portfilio_2 .p {
+    margin: 1em !important;
+}
+
+.portfilio_2 .secondBox {
+    margin-top: 2em;
+}
+
+.portfilio_2 .page {
+    font-family: "HattoriHanzoLight", Calibri, sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    background: url("../images/footer.png") no-repeat;
+    width: 6em;
+    height: 3em;
+    margin-top: 2em;
+}
+
+.portfilio_2 .page p {
+    margin-top: .5em;
+}
+
+.portfilio_2 .page p a:first-child {
+    color: #999999;
+}
+
+@media (min-width: 768px ) {
+    .portfilio_2 .page {
+        margin-left: 18em;
+    }
+}
+
+

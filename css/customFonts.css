@@ -1,0 +1,120 @@
+body{
+    background: #EEEEEE;
+}
+.customFonts .my-thumbnail{
+    padding: 2%;
+}
+.customFonts .my-frame{
+    padding: 4%;
+}
+.customFonts hr{
+    border: 1px solid white;
+}
+.customFonts ul{
+    padding-left: 40px;
+}
+
+
+/*---Image Frame with float left---*/
+.customFonts .frameLeft .my-thumbnail{
+    float: left;
+    margin: 2% 2% 2% 0;
+}
+
+/*---Image Frame with float right---*/
+.customFonts .frameRight .my-thumbnail{
+    float: right;
+    margin: 2% 0 2% 2% ;
+}
+
+/*Columns inside text*/
+.customFonts .columnsInside .col-sm-5 .my-temp_img{
+    float: right;
+    margin:2%;
+}
+.customFonts .columnsInside .col-sm-6 .my-temp_img{
+    float: right;
+    margin:2%;
+}
+.customFonts .columnsInside .thumbnail{
+    margin-top: 3%;
+}
+
+/*Tabs Icons example with title*/
+.customFonts .tabsIonic .my-header{
+    width:100%;
+    background: url("../images/tabs_bg01.png") repeat-x;
+}
+.customFonts .tabsIonic .my-header h4{
+    display: inline-block;
+}
+.customFonts .tabsIonic .my-header ul{
+    list-style: none;
+}
+.customFonts .tabsIonic .my-header ul li{
+    display: inline-block;
+}
+.customFonts .tabsIonic .my-header ul .my-active{
+    background: url("../images/tabs_active_bg.gif") no-repeat;
+}
+.customFonts .tabsIonic .tab-content .tab-pane h4{
+    color: #2E88C7;
+}
+
+/*Buttons*/
+
+
+/*Customed List styles*/
+.customFonts .customedList .checkList{
+    list-style-image: url("../images/list_icon_check.png");
+}
+.customFonts .customedList .deleteList{
+    list-style-image: url("../images/list_icon_delete.png");
+}
+.customFonts .customedList .arrowList{
+    list-style-image: url("../images/pagination_next.gif");
+}
+
+/*Box Styles*/
+.customFonts .boxStyles  .my-SecondBox1{
+    background:#D0D0D0;
+    border-radius: 5px;
+    margin: 2%;
+}
+.customFonts .boxStyles  .my-SecondBox2{
+    background:#DBECF8;
+    border-radius: 5px;
+    margin: 2%;
+}
+.customFonts .boxStyles  .my-SecondBox3{
+    background:#E2EFD2;
+    border-radius: 5px;
+    margin: 2%;
+}
+.customFonts .boxStyles div div div:nth-child(2){
+    padding: 5%;
+    margin: 3%;
+}
+.customFonts .boxStyles div div div:nth-child(1) img{
+    padding: 15%;
+}
+.customFonts .boxStyles .my-noteBox{
+    background: #E6E6E6;
+    margin:1%;
+    padding: 1%;
+}
+.customFonts .boxStyles .my-noteBox div:nth-child(2){
+    margin-top: 1%;
+}
+
+/*Toggle Contents*/
+.customFonts .toggleContent .accordion-group .accordion-heading{
+    height: 42px;
+    background: #D0D0D0;
+}
+.customFonts .toggleContent .accordion-group .accordion-heading .pull-right{
+    margin-top: 1%;
+}
+.customFonts .toggleContent .accordion-group .accordion-body .accordion-inner{
+    margin:2%;
+}

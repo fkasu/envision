@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>PricingPages</title>
+    <link href="css/global.css" rel="stylesheet"/>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/pricingPages.css">
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/global.js"></script>
+</head>
+<body>
+<div class="navBox navbar-fixed-top">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo.png" class="logo"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Sliders</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="index.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Animated Slider</span>
+                                        </a></li>
+                                        <li><a href="indexTextSlider.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Text Content Slider</span>
+                                        </a></li>
+                                        <li><a href="indexFlash.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Flash Slider</span>
+                                        </a></li>
+                                        <li><a href="indexSliderImages.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Single Image</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Pages</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="pageWithSideBar.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Page with sidebar</span>
+                                        </a></li>
+                                        <li><a href="pricingPages.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Pricing Page</span>
+                                        </a></li>
+                                        <li><a href="customFonts.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Custom fonts</span>
+                                        </a></li>
+
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Portfolio</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="portfilio_1.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Portfolio 1 column</span>
+                                        </a></li>
+                                        <li><a href="portfilio_2.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Portfolio 2 columns</span>
+                                        </a></li>
+                                        <li><a href="pageWithFullWidth.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Page with full width</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Blog</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="blog.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>My blog</span>
+                                        </a></li>
+                                        <li><a href="blogDetailedArticle.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Blog detailed article</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Contacts</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="contacts.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Contacts me</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+
+<div class="content">
+    <div class="pricingPage">
+        <div class="customFonts">
+            <div class="benchNav">
+                <div class="container">
+                    <!--<div class="row">-->
+                    <div class="row my-titleLeft">
+                        <div class="col-xs-2  my-titleImg">
+                            <img src="images/icon_pricing.png">
+                        </div>
+                        <div class="col-xs-1"></div>
+                        <div class="col-xs-9 my-titleCxt">
+                            <h3>Product&nbsp;<span>pricing table</span>&nbsp;page</h3>
+                            <p>Page subtitle can be set from admin</p>
+                        </div>
+                    </div>
+                    <div class="my-titleRight pull-right">
+                        <input type="text" placeholder="Type for search">
+                        <img src="images/search_submit.png" class="my-searchImg2 pull-right"/>
+                    </div>
+                    <!--</div>-->
+                </div>
+
+            </div>
+            <!--表格代码-->
+            <div class="tableScaleZoom">
+                <div class="container">
+                    <table class="table table-striped" cellpadding="0" cellspacing="0">
+                        <thead>
+                        <tr class="tHeader">
+                            <td class="text-center gradient"><span>Function</span></td>
+                            <td class="text-center gradient"><span>Trial plan</span></td>
+                            <td class="text-center gradient"><span class="span">Start-up</span></td>
+                            <td class="text-center gradient"><span>Professional</span></td>
+                            <td class="text-center gradient"><span class="span">EnterPrise</span></td>
+                        </tr>
+                        <tr class="tMiddle">
+                            <td class="text-center"><img src="images/temp_img_01.png"/>
+                                <p><span>function</span></p></td>
+                            <td class="text-center"><img src="images/table_icon_1.png"/>
+                                <p><span>free</span></p></td>
+                            <td class="text-center"><img src="images/table_icon_2.png"/>
+                                <p><span>$</span><span>39</span><span>/mo</span></p></td>
+                            <td class="text-center"><img src="images/table_icon_3.png"/>
+                                <p><span>$</span><span>59</span><span>/mo</span></p></td>
+                            <td class="text-center"><img src="images/table_icon_4.png"/>
+                                <p><span>$</span><span>89</span><span>/mo</span></p></td>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td class="text-center"><span>Live Support:</span></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><span>Enhanced security:</span></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><span>FTP Gateway:</span></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/>
+                                <p></p></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><span>No.of skins:</span></td>
+                            <td class="text-center"><span class="tdspan">9</span></td>
+                            <td class="text-center"><span class="tdspan">15</span></td>
+                            <td class="text-center"><span class="tdspan">29</span></td>
+                            <td class="text-center"><span class="tdspan">unlimited</span></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><span>Adwords credit:</span></td>
+                            <td class="text-center"><img src="images/list_icon_delete.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><span>Discount codes:</span></td>
+                            <td class="text-center"><img src="images/list_icon_delete.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_delete.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_delete.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><span>Real-time stats:</span></td>
+                            <td class="text-center"><img src="images/list_icon_delete.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_delete.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_delete.png"/></td>
+                            <td class="text-center"><img src="images/list_icon_check.png"/></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div><!--container-->
+            </div><!--table-responsive-->
+            <!--文字代码-->
+            <div class="contentDiv">
+                <div class="container">
+                    <div class="col colPayment1">
+                        <div class="inner">
+                            <h2>Frequently asked questions:</h2>
+                            <div class="faqList">
+                                <div class="faqQuestion"><span class="dropcap1">Q:</span>What’s the difference between
+                                    the
+                                    standard and the developer packages?
+                                </div>
+                                <div class="faqAnswer"><span class="dropcap1">A:</span>This has to be. One for all and
+                                    all
+                                    for
+                                    one, Muskehounds are always ready. One for all and all for one, helping everybody.
+                                    One
+                                    for
+                                    all and all for one, can sound pretty corny.
+                                </div>
+                                <div class="faqQuestion"><span class="dropcap1">Q:</span>Do you offer themes for other
+                                    Content
+                                    Management Systems like Drupal, Joomla! or ExpressionEngine?
+                                </div>
+                                <div class="faqAnswer"><span class="dropcap1">A:</span>Muskehounds are always ready. One
+                                    for
+                                    all and all for one, helping everybody. One for all and all for one, can sound
+                                    pretty
+                                    corny.
+                                    If you&#8217;ve got a problem chum, think how it to be. One for all and all for one,
+                                    Muskehounds are always ready. One for all and all for one, helping everybody lorem
+                                    ipsum
+                                    dolor sit amet.
+                                </div>
+                                <div class="faqQuestion"><span class="dropcap1">Q:</span>How do i change the size and
+                                    colors
+                                    of
+                                    the above Table of Prices?
+                                </div>
+                                <div class="faqAnswer"><span class="dropcap1">A:</span>This has to be. One for all and
+                                    all
+                                    for
+                                    one, Muskehounds are always ready. One for all and all for one, helping everybody.
+                                    One
+                                    for
+                                    all and all for one, can sound pretty corny.
+                                </div>
+                                </p></div>
+                        </div>
+                    </div><!--col-->
+
+                    <div class="col colPayment2">
+                        <div class="inner">
+                            <h2>Accepted methods of payments:</h2>
+                            <div class="payments">
+                                <p>We accept Visa, Mastercard, American Express, Discover, and of course, PayPal.</p>
+                            </div>
+                            <div class="paymentsNotice">
+                                <p><em>Your transaction is privately and securely handled by <a href="#">PayPal</a> or
+                                    <a
+                                            href="#">2Checkout</a></em></p>
+                            </div>
+                            <div class="border box boxWhite">
+                                <div class="inner">
+                                    <p><img src="images/ico_creditcards.gif" class="aligncenter img-responsive"/></p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div><!--col-->
+                </div><!--container-->
+            </div><!--contentDiv-->
+        </div><!--pricingPage-->
+        <div class="sidebarBtn" onclick="sidebarIconClick()">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebarContent">
+                <h4>Categories</h4>
+                <ul class="nav nav-sidebar">
+                    <li>
+                        <a href="#">
+                            <img src="images/ico_arrow_blue2.gif"/>
+                            <span>Food for thought</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/ico_arrow_blue2.gif"/>
+                            <span>Design & Identity</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/ico_arrow_blue2.gif"/>
+                            <span>Inspiration</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/ico_arrow_blue2.gif"/>
+                            <span>Contests</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/ico_arrow_blue2.gif"/>
+                            <span>Funny stuff</span>
+                        </a>
+                    </li>
+                </ul>
+                <h4>View more</h4>
+                <ul class="nav nav-sidebar">
+                    <li>
+                        <a href="#">
+                            <img src="images/ico_arrow_blue2.gif"/>
+                            <span>Typography</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/ico_arrow_blue2.gif"/>
+                            <span>Shortcodes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/ico_arrow_blue2.gif"/>
+                            <span>Easy page examples</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/ico_arrow_blue2.gif"/>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footerBox">
+    <div class="footerHaC">
+        <div class="footerHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3  do">
+                        What we do
+                    </div>
+                    <div class="col-sm-3  are">
+                        Who we are
+                    </div>
+                    <div class="col-sm-3 work">
+                        Featured work
+                    </div>
+                    <div class="col-sm-3 blog">
+                        From our Blog
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 colSm1 doContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Interactive Technology</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Online Marketing</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Website Design</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Strategy & Analysis</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">E-Learning</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm2 areContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">About Us</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Our History</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Vision that drives us</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">The Mission</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm3 workContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Silicon App</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Art Gallery</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Bon Apetit</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Exquisite Works</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Clean Classy Corp</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm4 blogContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Just released WS 2.3</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Not support IE6...</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Great feedback from...</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Don't ask when!</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Best tutorial on jQuery</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row rowMar">
+                    <div class="col-sm-5 colImg">
+                        <img src="images/footerImg1.png"/>
+                        <img src="images/footerImg2.png"/>
+                        <img src="images/footerImg3.png"/>
+                        <img src="images/footerImg4.png"/>
+                        <img src="images/footerImg5.png"/>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-1 colSmLast">
+                        <span>&copy;2013 sc.chinaz.com.Please don't steal!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

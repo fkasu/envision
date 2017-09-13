@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pageWithSideBar .midBox{
+    margin-top: 15px;
+    width: 100%;
+    height:auto;
+    background: #eeeeee;
+}
+.pageWithSideBar .row{
+    padding: 0!important;
+    margin-left: 0!important;
+}
+.pageWithSideBar .imgBox{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.pageWithSideBar .imgBox img{
+    width: 100%;
+}
+.pageWithSideBar .imgBox p{
+    font-size:1em;
+    margin-top:1em;
+    font-weight: bold;
+}
+.pageWithSideBar .groudA{
+    width: 100%;
+    font-size: 0.1em;
+    height:auto;
+    margin-top: 1em;
+    border-bottom: 1px solid #fff;
+    color: #00b3ee;
+}
+.pageWithSideBar .imgGroud{
+    margin-top: 1em;
+}
+.pageWithSideBar .imgGroud p{
+    font-size: 0.1em;
+
+}
+.pageWithSideBar .gg{
+    font-size:1em!important;
+    font-weight:bold;
+}
+
+.pageWithSideBar .imgGroudBox{
+    padding:1em;
+}
+.pageWithSideBar .imgGroudBox img{
+    width: 100%;
+}
+/*.imgGroudP{*/
+    /*height: auto;*/
+/*}*/
+.pageWithSideBar .imgGroudP p{
+    font-size: 0.1em;
+}
+.pageWithSideBar .imgGroudP,.left p{
+    font-size: 0.1em ;
+}
+/*.imgGroudP p:nth-child(2) img{*/
+    /*width:10em ;*/
+/*}*/
+.pageWithSideBar .columns{
+    border-bottom: 1px solid #fff;
+    height: auto;
+    /*margin-top:10em;*/
+}
+.pageWithSideBar .aa{
+    font-size: 1em;
+    font-weight: bold;
+}
+.pageWithSideBar .col-xs-6 p:nth-child(1){
+     font-size: 1em;
+    font-weight: bold;
+    color: #00b3ee;
+}
+.pageWithSideBar .col-xs-6 p:nth-child(2){
+    font-size: 0.1em;
+}
+
+.pageWithSideBar .col-xs-6 span{
+    color: #00b3ee;
+    font-size:0.1em;
+}
+.pageWithSideBar .midBoxLast p:nth-child(1){
+    font-size: 1em;
+    font-weight: bold;
+}
+.pageWithSideBar .midBoxLast p:nth-child(2){
+    font-size: 0.1em;
+}
+.pageWithSideBar .midBoxLast span{
+     font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+    opacity: 0.8;
+    margin-top:-0.8em;
+}
+.pageWithSideBar .midBoxLastImg{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.pageWithSideBar .col-xs-3{
+    padding-left:0!important; ;
+}
+/*@media (min-width:320px)and (max-width: 375px){*/
+    /*.col-xs-6 i{*/
+        /*font-size:1px;*/
+    /*}*/
+/*}*/
+
+
+

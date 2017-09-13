@@ -1,0 +1,170 @@
+body{
+    background: #EEEEEE;
+}
+.pageWithFullWidth .theContent{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.pageWithFullWidth .my-frame{
+    padding: 4%;
+}
+.pageWithFullWidth .my-thumbnail{
+    padding: 2%;
+}
+
+/*contentFirst*/
+.pageWithFullWidth .contentFirst1 .my-titleImg{
+    text-align: center;
+
+}
+.pageWithFullWidth .contentFirst1 .my-titleImg img{
+    width: 90%;
+
+}
+.pageWithFullWidth .contentFirst1 .thumbnail{
+    margin-top:8%;
+}
+.pageWithFullWidth .contentFirst1 .thumbnail img{
+    display: inline-block;
+}
+
+/*contentSecond*/
+.pageWithFullWidth .contentSecond p{
+    font-family:Andalus;
+    font-size: 22px;
+    color: #2e88c7;
+}
+
+/*contentThird*/
+.pageWithFullWidth .contentThird .my-thumbnail{
+    float: left;
+    margin: 2% 2% 2% 0;
+}
+
+
+/*contentFourth*/
+.pageWithFullWidth .contentFourth .col-sm-8{
+    padding: 3%;
+}
+.pageWithFullWidth .contentFourth .col-sm-8 h4{
+    display: inline-block;
+}
+.pageWithFullWidth .contentFourth .col-sm-8 p{
+    font-family:Andalus;
+    font-size: 25px;
+    color: #2e88c7;
+}
+.pageWithFullWidth .contentFourth .col-sm-8 .carousel .my-bannerCxt{
+    float: right;
+}
+.pageWithFullWidth .contentFourth .col-sm-8 .carousel .my-bannerCxt .span1{
+    color: #753573;
+}
+.pageWithFullWidth .contentFourth .col-sm-4 .mail_box img{
+    position: absolute;
+    top:-5px;
+    left: 20px;
+}
+.pageWithFullWidth .contentFourth .col-sm-4 .mail_box p{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.pageWithFullWidth .contentFourth .col-sm-4 .input_box{
+    width: 256px;
+    height: 36px;
+    margin: 0 auto;
+
+}
+
+.pageWithFullWidth .contentFourth .col-sm-4 .input_box .input{
+    border: none;
+    padding: 7px;
+    width: 220px;
+    outline:none;
+}
+
+.pageWithFullWidth .contentFourth .col-sm-4 .input_box .input_1{
+    border: none;
+    padding: 7px;
+    width: 36px;
+    float: right;
+    outline:none;
+    background: url("../images/newsletter_input.gif") right no-repeat;
+}
+.pageWithFullWidth .contentFourth .col-sm-8{
+     padding: 3%;
+ }
+.pageWithFullWidth .contentFourth .col-sm-8 h4{
+    display: inline-block;
+}
+.pageWithFullWidth .contentFourth .col-sm-8 p{
+    font-family:Andalus;
+    font-size: 25px;
+    color: #2e88c7;
+}
+.pageWithFullWidth .contentFourth .col-sm-8 .carousel .my-bannerCxt{
+    float: right;
+}
+.pageWithFullWidth .contentFourth .col-sm-8 .carousel .my-bannerCxt .span1{
+    color: #753573;
+}
+.pageWithFullWidth .contentFourth .col-sm-4 .mail_box{
+    margin-top: 30px;
+    position: relative;
+    background:#E3E7E8;
+}
+.pageWithFullWidth .contentFourth .col-sm-4 .mail_box img{
+    position: absolute;
+    top:-10px;
+    left: 20px;
+}
+.pageWithFullWidth .contentFourth .col-sm-4 .mail_box h2{
+    margin-left: 45px;
+}
+.pageWithFullWidth .contentFourth .col-sm-4 .mail_box p{
+    color: #999;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+
+.pageWithFullWidth .contentFourth .col-sm-4 .input_box{
+    width: 256px;
+    height: 36px;
+    margin: 0 auto;
+
+}
+
+.pageWithFullWidth .contentFourth .col-sm-4 .input_box .input{
+    border: none;
+    padding: 7px;
+    width: 220px;
+    outline:none;
+}
+
+.pageWithFullWidth .contentFourth .col-sm-4 .input_box .input_1 {
+    border: none;
+    padding: 7px;
+    width: 36px;
+    float: right;
+    outline: none;
+    background: url("../images/newsletter_input.gif") right no-repeat;
+}
+@media (max-width: 1200px) {
+    .pageWithFullWidth .contentFourth .col-sm-4 .input_box .input {
+        width: 170px;
+    }
+    .pageWithFullWidth .contentFourth .col-sm-4 .input_box{
+        width: 206px;
+    }
+
+}
+
+/*contentFifth*/
+.pageWithFullWidth .contentFifth .col-sm-4 .my-temp_img{
+    float: right;
+    margin:2%;
+}
+.pageWithFullWidth .contentFifth .thumbnail{
+    margin-top: 3%;
+}

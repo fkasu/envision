@@ -1,0 +1,624 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Slicebox - 3D Image Slider with Fallback" />
+    <meta name="keywords" content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic" />
+    <meta name="author" content="Pedro Botelho for Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/demoISI.css" />
+    <link rel="stylesheet" type="text/css" href="css/sliceboxISI.css" />
+    <link rel="stylesheet" type="text/css" href="css/customISI.css" />
+    <link href="css/global.css" rel="stylesheet"/>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        .top-banner {
+            background-color: rgba(255, 255, 255, 0.55);
+        }
+    </style>
+    <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+</head>
+<body>
+<div class="navBox navbar-fixed-top">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo.png" class="logo"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Sliders</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="index.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Animated Slider</span>
+                                        </a></li>
+                                        <li><a href="indexTextSlider.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Text Content Slider</span>
+                                        </a></li>
+                                        <li><a href="indexFlash.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Flash Slider</span>
+                                        </a></li>
+                                        <li><a href="indexSliderImages.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Single Image</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Pages</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="pageWithSideBar.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Page with sidebar</span>
+                                        </a></li>
+                                        <li><a href="pricingPages.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Pricing Page</span>
+                                        </a></li>
+                                        <li><a href="customFonts.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Custom fonts</span>
+                                        </a></li>
+
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Portfolio</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="portfilio_1.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Portfolio 1 column</span>
+                                        </a></li>
+                                        <li><a href="portfilio_2.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Portfolio 2 columns</span>
+                                        </a></li>
+                                        <li><a href="pageWithFullWidth.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Page with full width</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Blog</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="blog.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>My blog</span>
+                                        </a></li>
+                                        <li><a href="blogDetailedArticle.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Blog detailed article</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Contacts</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="contacts.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Contacts me</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+
+
+<div class="content">
+    <div class="index">
+        <div style="overflow: auto">
+            <div class="slideBox"  >
+
+
+                <div class="wrapper" >
+
+                    <ul id="sb-slider" class="sb-slider">
+                        <li>
+                            <img src="images/slider_img_1.jpg" alt="image1"/>
+                        </li>
+                        <li>
+                            <img src="images/slider_img_2.jpg" alt="image2"/>
+                        </li>
+                        <li>
+                            <img src="images/slider_img_3.jpg" alt="image1"/>
+                        </li>
+                        <li>
+                            <img src="images/slider_img_4.jpg" alt="image1"/>
+                        </li>
+                        <li>
+                            <img src="images/slider_img_5.jpg" alt="image1"/>
+                        </li>
+
+                    </ul>
+
+                    <!--<div id="shadow" class="shadow"></div>-->
+
+                    <div id="nav-arrows" class="nav-arrows">
+                        <a href="#">Next</a>
+                        <a href="#">Previous</a>
+                    </div>
+
+                </div><!-- /wrapper -->
+                <!--<div class="footer-banner" style="width:728px; margin:30px auto"></div>-->
+
+            </div>
+        </div>
+        <div class="welcome_icon">
+            <div class="container">
+                <h1>Welcome to <span>Envision</span>, the interactive agency!</h1>
+                <div class="bar_right">
+                    <a><p>View Portfolio</p></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="content_box">
+            <div class="container">
+                <div class="content_box_1">
+                    <div class="content">
+                        <h2>Multiple Colors & Slider options</h2>
+                        <p>
+                            Sliders in all forms & colors: Javascript, Flash, you name it! We’ve got it! But the
+                            <img src="images/temp_img_1.png" class="temp_img">
+                            best part is that they can be easily modified to fit your company’s look & feel.
+                        </p>
+                        <p><img src="images/ico_plus.png"> <span>more details</span></p>
+
+                        <h2>Award winning design & coding</h2>
+                        <p>
+                            These three icons below the text paragraphs are custom created for the Envision
+                            <img src="images/temp_img_2.png" class="temp_img">
+                            theme & the included PSD files contain all the layers needed to edit them.
+                        </p>
+                        <p><img src="images/ico_plus.png"> <span>more details</span></p>
+
+                        <h2>Great support in just 24 hours</h2>
+                        <p>
+                            If you buy this theme we offer 24 hours response time on our dedicated support
+                            <img src="images/temp_img_3.png" class="temp_img">
+                            forums. That’s “best in class” support offer, it just can’t get better & faster than this!
+                        </p>
+                        <p><img src="images/ico_plus.png"> <span>more details</span></p>
+                    </div>
+
+                    <div class="box_white">
+                        <div class="quote_box">
+                            <img src="images/ico_quote.gif">
+                            <div class="inner">
+                                <h3>WHAT OTHERS SAY ABOUT US:</h3>
+                                <span>Over the last eighteen months our sales have increased three-fold since the launch of our new web site. We have to say it has made us delighted we chose Envision.</span>
+                                <p><span>GEORGE MANSION,</span> FOUNDER SILICON APP INC</p>
+                            </div>
+                        </div>
+
+                        <div class="mail_box">
+                            <img src="images/ribbon_mail.png">
+                            <h2>Stay in touch with us!</h2>
+                            <p>Thank you for your subscription.</p>
+                            <div class="input_box">
+                                <input class="input" type="text">
+                                <input class="input_1" type="button">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab_box ">
+                        <div class="tab_title">
+                            <span>Services:</span>
+                            <ul class="nav nav-tabs tabs" role="tablist">
+                                <li role="presentation" class="active current"><a href="#home" role="tab"
+                                                                                  data-toggle="tab"><img
+                                        src="images/icons/icon_1.png"></a></li>
+                                <li role="presentation"><a href="#profile" role="tab" data-toggle="tab"><img
+                                        src="images/icons/icon_2.png"></a></li>
+                                <li role="presentation"><a href="#profile_1" role="tab" data-toggle="tab"><img
+                                        src="images/icons/icon_3.png"></a></li>
+                            </ul>
+
+                        </div>
+                        <div class="tabcontent">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    <div class="tab_temp">
+                                        <img src="images/temp/gallery_img_4.jpg">
+                                        <p>Creative webdesign</p>
+                                        The point of using Lorem Ipsum is that it has a near “more-or-less” normal and
+                                        distribution
+                                        of
+                                        letters.
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <div class="tab_temp">
+                                        <img src="images/temp/temp_img_2.jpg">
+                                        <p>Apps for Mobile phones</p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile_1">
+                                    <div class="tab_temp">
+                                        <img src="images/temp/temp_img_3.jpg">
+                                        <p>Statistics</p>
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip
+                                        ex ea
+                                        commodo consequat.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab_box ">
+                        <div class="tab_title">
+                            <span>Solutions:</span>
+                            <ul class="nav nav-tabs tabs" role="tablist">
+                                <li role="presentation" class="active current"><a href="#home_1" role="tab"
+                                                                                  data-toggle="tab"><img
+                                        src="images/icons/icon_5.png"></a></li>
+                                <li role="presentation"><a href="#profile_3" role="tab" data-toggle="tab"><img
+                                        src="images/icons/icon_4.png"></a></li>
+                                <li role="presentation"><a href="#profile_4" role="tab" data-toggle="tab"><img
+                                        src="images/icons/icon_6.png"></a></li>
+                            </ul>
+
+                        </div>
+                        <div class="tabcontent">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home_1">
+                                    <div class="tab_temp">
+                                        <img src="images/temp/temp_img_3.jpg">
+                                        <p>Creative webdesign</p>
+                                        The point of using Lorem Ipsum is that it has a near “more-or-less” normal and
+                                        distribution
+                                        of
+                                        letters.
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile_3">
+                                    <div class="tab_temp">
+                                        <img src="images/temp/temp_img_1.jpg">
+                                        <p>Apps for Mobile phones</p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile_4">
+                                    <div class="tab_temp">
+                                        <img src="images/temp/temp_img_2.jpg">
+                                        <p>Statistics</p>
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip
+                                        ex ea
+                                        commodo consequat.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="sidebarBtn" onclick="sidebarIconClick()">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+    </div>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebarContent">
+            <h4>Categories</h4>
+            <ul class="nav nav-sidebar">
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Food for thought</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Design & Identity</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Inspiration</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Contests</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Funny stuff</span>
+                    </a>
+                </li>
+            </ul>
+            <h4>View more</h4>
+            <ul class="nav nav-sidebar">
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Typography</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Shortcodes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Easy page examples</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+<div class="footerBox">
+    <div class="footerHaC">
+        <div class="footerHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3  do">
+                        What we do
+                    </div>
+                    <div class="col-sm-3  are">
+                        Who we are
+                    </div>
+                    <div class="col-sm-3 work">
+                        Featured work
+                    </div>
+                    <div class="col-sm-3 blog">
+                        From our Blog
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 colSm1 doContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Interactive Technology</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Online Marketing</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Website Design</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Strategy & Analysis</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">E-Learning</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm2 areContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">About Us</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Our History</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Vision that drives us</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">The Mission</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm3 workContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Silicon App</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Art Gallery</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Bon Apetit</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Exquisite Works</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Clean Classy Corp</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm4 blogContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Just released WS 2.3</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Not support IE6...</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Great feedback from...</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Don't ask when!</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Best tutorial on jQuery</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row rowMar">
+                    <div class="col-sm-5 colImg">
+                        <img src="images/footerImg1.png"/>
+                        <img src="images/footerImg2.png"/>
+                        <img src="images/footerImg3.png"/>
+                        <img src="images/footerImg4.png"/>
+                        <img src="images/footerImg5.png"/>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-1 colSmLast">
+                        <span>&copy;2013 sc.chinaz.com.Please don't steal!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+<script type="text/javascript">
+    $(function() {
+
+        var Page = (function() {
+
+            var $navArrows = $( '#nav-arrows' ).hide(),
+                    $navOptions = $( '#nav-options' ).hide(),
+                    $shadow = $( '#shadow' ).hide(),
+                    slicebox = $( '#sb-slider' ).slicebox( {
+                        onReady : function() {
+
+                            $navArrows.show();
+                            $navOptions.show();
+                            $shadow.show();
+
+                        },
+                        orientation : 'h',
+                        cuboidsCount : 3
+                    } ),
+
+                    init = function() {
+
+                        initEvents();
+
+                    },
+                    initEvents = function() {
+
+                        // add navigation events
+                        $navArrows.children( ':first' ).on( 'click', function() {
+
+                            slicebox.next();
+                            return false;
+
+                        } );
+
+                        $navArrows.children( ':last' ).on( 'click', function() {
+
+                            slicebox.previous();
+                            return false;
+
+                        } );
+
+                        $( '#navPlay' ).on( 'click', function() {
+
+                            slicebox.play();
+                            return false;
+
+                        } );
+
+                        $( '#navPause' ).on( 'click', function() {
+
+                            slicebox.pause();
+                            return false;
+
+                        } );
+
+                    };
+            function timer() {
+                slicebox.play();
+            }
+            time = setInterval(timer,1);
+
+            return { init : init };
+
+        })();
+
+        Page.init();
+
+    });
+</script>
+
+</body>
+</html>

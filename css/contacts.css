@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+    background-color: #EEEEEE;
+}
+.Contacts h3 {
+    font-size: 1.375em;
+    color: #444e69;
+}
+.Contacts .container{
+    padding-top: 15px;
+}
+.Contacts .contactUs label{
+    font-size: .375em;
+}
+.Contacts .contactUs p{
+    font-size: .375em;
+    color: #999999;
+}
+.Contacts .contactUs .commentBtn{
+    text-decoration: none;
+    width: 177px;
+    height: 52px;
+    background: url("../images/buttons.png") no-repeat;
+    padding: 1em;
+    /*margin-bottom: 3em;*/
+    /*margin-top: 1em;*/
+    margin: 1em 0 3em 1em;
+}
+.Contacts .contactUs a{
+    font-size: .5em;
+}
+.Contacts .contactUs select{
+    width: 100%;
+    height: 34px;
+    border-color: #cccccc;
+    border-radius: 4px;
+}

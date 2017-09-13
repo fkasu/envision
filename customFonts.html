@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>customFonts</title>
+    <link href="css/global.css" rel="stylesheet"/>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/customFonts.css">
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/customFonts.js"></script>
+</head>
+<body>
+<div class="navBox navbar-fixed-top">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container ">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo.png" class="logo"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Sliders</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="index.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Animated Slider</span>
+                                        </a></li>
+                                        <li><a href="indexTextSlider.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Text Content Slider</span>
+                                        </a></li>
+                                        <li><a href="indexFlash.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Flash Slider</span>
+                                        </a></li>
+                                        <li><a href="indexSliderImages.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Single Image</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Pages</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="pageWithSideBar.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Page with sidebar</span>
+                                        </a></li>
+                                        <li><a href="pricingPages.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Pricing Page</span>
+                                        </a></li>
+                                        <li><a href="customFonts.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Custom fonts</span>
+                                        </a></li>
+
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Portfolio</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="portfilio_1.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Portfolio 1 column</span>
+                                        </a></li>
+                                        <li><a href="portfilio_2.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Portfolio 2 columns</span>
+                                        </a></li>
+                                        <li><a href="pageWithFullWidth.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Page with full width</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Blog</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="blog.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>My blog</span>
+                                        </a></li>
+                                        <li><a href="blogDetailedArticle.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Blog detailed article</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Contacts</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="contacts.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Contacts me</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+
+<div class="content">
+    <div class="customFonts">
+        <div class="benchNav">
+            <div class="container">
+                <!--<div class="row">-->
+                <div class="row my-titleLeft">
+                    <div class="col-xs-2  my-titleImg">
+                        <img src="images/icon_pages.png">
+                    </div>
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-9 my-titleCxt">
+                        <h3>HTML&nbsp;<span>Shortcodes</span></h3>
+                        <p>Page subtitle can be set from admin</p>
+                    </div>
+                </div>
+                <div class="my-titleRight pull-right">
+                    <input type="text" placeholder="Type for search">
+                    <img src="images/search_submit.png"  class="my-searchImg2 pull-right"/>
+                </div>
+                <!--</div>-->
+            </div>
+
+        </div>
+        <div class="container">
+            <!--H1 Title Example-->
+            <div>
+                <h3>H1 Title Example</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <!--Image Frame, position center-->
+            <div class="frameCenter">
+                <h3>Image Frame, position center</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <a href="#" class="thumbnail my-thumbnail">
+                            <img src="images/page_img_1.jpg">
+                        </a>
+                    </div>
+                </div>
+                <p class="thumbnail my-frame">
+                    [frame_center] &lt;a href="YOUR-URL" &gt; &lt; img src="YOUR-URL" alt="" &gt; &lt; /a &gt;
+                    [/frame_center]
+                </p>
+            </div>
+
+            <!--Image Frame with float left-->
+            <div class="frameLeft">
+                <h3>Image Frame with float left</h3>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                <a href="#" class="thumbnail my-thumbnail">
+                    <img src="images/temp_img_3.jpg">
+                </a>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                <laborum class=""></laborum>
+                <br/>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ipsum dolor sit amet consectetur adipisicing elit, sed.
+                </p>
+            </div>
+            <p class="thumbnail my-frame" style="clear: both">
+                [frame_left] &lt;a href="YOUR-URL" &gt; &lt; img src="YOUR-URL" alt="" &gt; &lt; /a &gt; [/frame_left]
+            </p>
+
+            <!--Image Frame with float right-->
+            <div class="frameRight">
+                <h3>Image Frame with float right</h3>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.
+                <a href="#" class="thumbnail my-thumbnail">
+                    <img src="images/temp_img_1.jpg">
+                </a>
+                <br/><br/>
+                <p>
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, Lorem ipsum dolor sit
+                    amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus.
+                    Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec,
+                    gravida vehicula, nisl. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc.
+                </p>
+            </div>
+            <p class="thumbnail my-frame" style="clear: both">
+                [frame_right] &lt;a href="YOUR-URL" &gt; &lt; img src="YOUR-URL" alt="" &gt; &lt; /a &gt; [/frame_right]
+            </p>
+            <hr/>
+            <!--Columns inside text-->
+            <div class="columnsInside">
+                <h3>Columns inside text:</h3>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <a href="#"><h4>Multiple Colors & Slider options</h4></a>
+                        <img src="images/temp_img_1.png" class="my-temp_img"/>
+                        <p>
+                            Sliders in all forms & colors: Javascript, Flash, you name it! We’ve got it! But the best
+                            part is that they can be easily modified to fit your company’s look & feel.
+                        </p>
+                        <a href="#" style=""><img src="images/ico_plus.png"/> &nbsp;more details</a>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-6">
+                        <a href="#"><h4>Award winning design & coding</h4></a>
+                        <img src="images/temp_img_2.png" class="my-temp_img"/>
+                        <p>
+                            These three icons below the text paragraphs are custom created for the Envision theme & the
+                            included PSD files contain all the layers needed to edit them.
+                        </p>
+                        <a href="#" style=""><img src="images/ico_plus.png"/> &nbsp;more details</a>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    [row]<br/>
+                    [col type="1_2"]<br/>
+                    Your content here...<br/>
+                    [link_more url="#"]<br/>
+                    [/col]<br/>
+                    <br/>
+                    [col type="1_2"]<br/>
+                    Your content here...<br/>
+                    [link_more url="#"]<br/>
+                    [/col]<br/>
+                    [/row]<br/>
+                    <br/>
+                    [divider type=""]
+                </div>
+            </div>
+            <hr/>
+            <!--Tabs Icons example with title:-->
+            <div class="tabsIonic">
+                <h3>Tabs Icons example with title:</h3>
+                <div class="my-header">
+                    <h4>Main title</h4>
+                    <ul class="" role="tablist" style="float: right">
+                        <li role="presentation" class="active my-active">
+                            <a href="#pen" role="tab" data-toggle="tab">
+                                <img src="images/icon_1.png">
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#camera" role="tab" data-toggle="tab">
+                                <img src="images/icon_2.png">
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#tree" role="tab" data-toggle="tab">
+                                <img src="images/icon_3.png">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="tab-content  thumbnail my-frame">
+                    <div role="tabpanel" class="tab-pane active row my-frame" id="pen">
+                        <div class="col-sm-5">
+                            <img src="images/temp_img_1.jpg" class="img-responsive"/>
+                        </div>
+                        <div class="col-sm-7">
+                            <h4>Tab Title. Framed Image</h4>
+                            <p>The point of using Lorem Ipsum is that it has a near “more-or-less” normal and
+                                distribution of letters.</p>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane  my-frame" id="camera">
+                        <h4>Muskehounds</h4>
+                        <p>
+                            One for all and all for one, Muskehounds are always not ready. One for all and all for one,
+                            helping everybody. One for all and all for one, can sound pretty corny. If you’ve got a
+                            problem chum, think how it could be. Ulysses, Ulysses – Soaring through all the galaxies. In
+                            search of Earth, flying in to the night. Ulysses, Ulysses – Fighting evil and tyranny.
+                        </p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane row  my-frame" id="tree">
+                        <div class="col-sm-7">
+                            <h4>Tab 3 – Title</h4>
+                            <p>
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat.
+                            </p>
+                        </div>
+                        <div class="col-sm-5">
+                            <img src="images/temp_img_3.jpg" class="img-responsive"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="thumbnail my-frame">
+                    [icon_tabs title="Title"]<br/>
+                    [tab icon="ico1"]Tab content 1[/tab]<br/>
+                    [tab icon="ico2"]Tab content 2[/tab]<br/>
+                    [tab icon="ico3"]Tab content 3[/tab]<br/>
+                    [/icon_tabs]
+                </div>
+            </div>
+            <hr/>
+
+            <!--Framed Tabs example:-->
+            <div class="framedTab">
+                <h3>Framed Tabs example:</h3>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab">Tab1</a></li>
+                    <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">Tab2</a></li>
+                    <li role="presentation"><a href="#tab3" role="tab" data-toggle="tab">Tab3</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active thumbnail my-frame" id="tab1">
+                        <h4>Tab 1 content</h4>
+                        <p>
+                            The point of using Lorem Ipsum is that it has a near “more-or-less” normal and distribution
+                            of letters.
+                            One for all and all for one, helping everybody.
+                        </p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane  thumbnail my-frame" id="tab2">
+                        <h4>Tab 2 content</h4>
+                        <p>
+                            One for all and all for one, Muskehounds are always not ready. One for all and all for one,
+                            helping everybody. One for all and all for one, can sound pretty corny. If you’ve got a
+                            problem chum, think how it could be.
+                        </p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane  thumbnail my-frame" id="tab3">
+                        One for all and all for one, Muskehounds are always not ready. One for all and all for one,
+                        helping everybody. One for all and all for one, can sound pretty corny. If you’ve got a problem
+                        chum, think how it could be. Ulysses, Ulysses – Soaring through all the galaxies. In search of
+                        Earth, flying in to the night. Ulysses, Ulysses – Fighting evil and tyranny.
+                    </div>
+                    <div class="thumbnail my-frame">
+                        [framed_tabs]<br/>
+                        &nbsp;&nbsp;[tab title="Tab 1"]Tab content 1[/tab]<br/>
+                        &nbsp;&nbsp;[tab title="Tab 2"]Tab content 2[/tab]<br/>
+                        &nbsp;&nbsp;[tab title="Tab 3"]Tab content 3[/tab]<br/>
+                        [/framed_tabs]
+                    </div>
+                </div>
+                <hr/>
+            </div>
+
+            <!--Buttons-->
+            <div class="Buttons">
+                <h3>Buttons</h3>
+                <div class="my-bigBtn"></div>
+                <div class="my-smallBtn"></div>
+                <div class="my-middleBtn"></div>
+                <div class="thumbnail my-frame">
+                    [button link="#" class="large_button light_gray"]Light Gray Large[/button]<br/>
+                    [button link="#" class="light_gray"]Light Gray[/button]<br/>
+                    [button link="#" class="dark_blue"]Dark Blue[/button]<br/>
+                    [button link="#" class="sky_blue"]Sky Blue[/button]<br/>
+                    [button link="#" class="magic_pink"]Magic Pink[/button]<br/>
+                    [button link="#" class="mellow_yellow"]Mellow Yellow[/button]<br/>
+                    [button link="#" class="juicy_orange"]Juicy Orange[/button]<br/>
+                    [button link="#" class="sports_green"]Sports Green[/button]<br/>
+                    [button link="#" class="romance_red"]Romance Red[/button]
+                </div>
+            </div>
+            <hr/>
+            <!--Customed List styles:-->
+            <div class="customedList">
+                <h3>Customed List styles:</h3>
+                <p>This is how looks the default list</p>
+                <ul>
+                    <li>Default list item 1</li>
+                    <br/>
+                    <li>Default list item 2</li>
+                    <br/>
+                    <li>Default list item 3</li>
+                    <br/>
+                </ul>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>Checklist:</h3>
+                        <ul class="checkList">
+                            <li>Checklist item 1</li>
+                            <br/>
+                            <li>Checklist item 2</li>
+                            <br/>
+                            <li>Checklist item 3</li>
+                            <br/>
+                        </ul>
+                        <div class="thumbnail my-frame">
+                            [check_list]<br/>
+                            &lt;ul &gt;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;li &gt; Checklist item 1 &lt;/li &gt;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;li &gt; Checklist item 2 &lt;/li &gt;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;li &gt; Checklist item 3 &lt;/li &gt;<br/>
+                            &lt;/ul &gt;<br/>
+                            [/check_list]
+                        </div>
+                        <h3>Arrow list:</h3>
+                        <ul class="arrowList">
+                            <li>Arrow list item 1</li>
+                            <br/>
+                            <li>Arrow list item 2</li>
+                            <br/>
+                            <li>Arrow list item 3</li>
+                            <br/>
+                            <li>Arrow list item 4</li>
+                            <br/>
+                            <li>Arrow list item 5</li>
+                            <br/>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Deletelist:</h3>
+                        <ul class="deleteList">
+                            <li>Deletelist item 1</li>
+                            <br/>
+                            <li>Deletelist item 2</li>
+                            <br/>
+                            <li>Deletelist item 3</li>
+                            <br/>
+                        </ul>
+                        <div class="thumbnail my-frame">
+                            [delete_list]<br/>
+                            &lt;ul &gt;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;li &gt; Delete list item 1 &lt;/li &gt;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;li &gt; Delete list item 2 &lt;/li &gt;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;li &gt; Delete list item 3 &lt;/li &gt;<br/>
+                            &lt;/ul &gt;<br/>
+                            [/delete_list]
+                        </div>
+                        <div class="thumbnail my-frame">
+                            [arrow_list]<br/>
+                            &lt;ul &gt;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;li &gt; Arrow list item 1 &lt;/li &gt;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;li &gt; Arrow list item 2 &lt;/li &gt;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;li &gt; Arrow list item 3 &lt;/li &gt;<br/>
+                            &lt;/ul &gt;<br/>
+                            [/arrow_list]
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Box Styles-->
+            <div class="boxStyles">
+                <div class="row">
+                    <div class="col-sm-3 row my-SecondBox1">
+                        <div class="col-xs-3">
+                            <img src="images/download_box.png"/>
+                        </div>
+                        <div class="col-xs-8">Place your own text here</div>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-1 row my-SecondBox2">
+                        <div class="col-xs-3">
+                            <img src="images/info_box.png"/>
+                        </div>
+                        <div class="col-xs-8">Place your own text here</div>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-1 row my-SecondBox3">
+                        <div class="col-xs-3">
+                            <img src="images/warrning_box.png"/>
+                        </div>
+                        <div class="col-xs-8">Place your own text here</div>
+                    </div>
+                </div>
+                <div class="thumbnail my-frame">
+                    [row]<br/>
+                    [col type="1_3"]<br/>
+                    [box type="download_box" style="box_gray"]<br/>
+                    Place your own text here<br/>
+                    [/box]<br/>
+                    [/col]<br/>
+                    [col type="1_3"]<br/>
+                    [box type="info_box" style="box_blue"]<br/>
+                    Place your own text here<br/>
+                    [/box]<br/>
+                    [/col]<br/>
+                    [col type="1_3"]<br/>
+                    [box type="warrning_box" style="box_green"]<br/>
+                    Place your own text here<br/>
+                    [/box]<br/>
+                    [/col]<br/>
+                    [/row]<br/>
+                    [divider type="thin"]
+                </div>
+                <div class="row my-noteBox">
+                    <div class="col-xs-3"><img src="images/note_box.png"></div>
+                    <div class="col-xs-9">Information Styled Box (Can contain other shortcodes)</div>
+                </div>
+                <div class="thumbnail my-frame">
+                    [box type="note_box" class="box_light_gray"]<br/>
+                    Place your own text here<br/>
+                    [/box]<br/>
+                </div>
+            </div>
+            <hr/>
+            <!--Toggle Content-->
+            <div class="toggleContent">
+                <h3>Toggle Content</h3>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+                            <h4 class="pull-left">Toggle Content (click to open)</h4>
+                            <img src="images/toggle_plus.gif" class="pull-right"/>
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse" style="height: 0px; clear: both">
+                        <div class="accordion-inner thumbnail my-frame">
+                            80 days around the world, we’ll find a pot of gold just sitting where the rainbow’s ending
+                            white wings of the wind. At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia
+                            deserunt mollitia animi, id est laborum et dolorum fuga.
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail" style="clear: both; margin-top: 2%">
+                    [toggle_content title="Toggle Content (click to open)"]<br/>
+                    Insert your text here<br/>
+                    [/toggle_content]<br/>
+
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">
+                            <h4 class="pull-left">Toggle Content (click to open)</h4>
+                            <img src="images/toggle_plus.gif" class="pull-right"/>
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse" style=" clear: both">
+                        <div class="accordion-inner thumbnail my-frame">
+                            Q:What’s thedifference between the standard and the developer packages?<br/>
+                            A:This has to be. One for all and all for one, Muskehounds are always ready. One for all and
+                            all for one, helping everybody. One for all and all for one, can sound pretty corny.<br/>
+                            Q:Do you offer themes for other Content Management Systems like Drupal, Joomla! or
+                            ExpressionEngine?<br/>
+                            A:Muskehounds are always ready. One for all and all for one, helping everybody. One for all
+                            and all for one, can sound pretty corny. If you’ve got a problem chum, think how it to be.
+                            One for all and all for one, Muskehounds are always ready. One for all and all for one,
+                            helping everybody lorem ipsum dolor sit amet.<br/>
+                            Q:How do i change the size and colors of the above Table of Prices?<br/>
+                            A:This has to be. One for all and all for one, Muskehounds are always ready. One for all and
+                            all for one, helping everybody. One for all and all for one, can sound pretty corny. <br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail my-frame" style="margin-top: 2%">
+                    [toggle_content title="Frequently asked questions:"]<br/>
+                    [faq]<br/>
+                    [faq_question]Question[/faq_question]<br/>
+                    [faq_answer]Answer[/faq_answer]<br/>
+                    [/faq]<br/>
+                    [/toggle_content]<br/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebarBtn" onclick="sidebarIconClick()">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+    </div>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebarContent">
+            <h4>Categories</h4>
+            <ul class="nav nav-sidebar">
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Food for thought</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Design & Identity</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Inspiration</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Contests</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Funny stuff</span>
+                    </a>
+                </li>
+            </ul>
+            <h4>View more</h4>
+            <ul class="nav nav-sidebar">
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Typography</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Shortcodes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Easy page examples</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="footerBox">
+    <div class="footerHaC">
+        <div class="footerHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3  do">
+                        What we do
+                    </div>
+                    <div class="col-sm-3  are">
+                        Who we are
+                    </div>
+                    <div class="col-sm-3 work">
+                        Featured work
+                    </div>
+                    <div class="col-sm-3 blog">
+                        From our Blog
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 colSm1 doContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Interactive Technology</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Online Marketing</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Website Design</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Strategy & Analysis</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">E-Learning</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm2 areContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">About Us</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Our History</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Vision that drives us</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">The Mission</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm3 workContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Silicon App</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Art Gallery</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Bon Apetit</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Exquisite Works</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Clean Classy Corp</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm4 blogContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Just released WS 2.3</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Not support IE6...</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Great feedback from...</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Don't ask when!</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Best tutorial on jQuery</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row rowMar">
+                    <div class="col-sm-5 colImg">
+                        <img src="images/footerImg1.png"/>
+                        <img src="images/footerImg2.png"/>
+                        <img src="images/footerImg3.png"/>
+                        <img src="images/footerImg4.png"/>
+                        <img src="images/footerImg5.png"/>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-1 colSmLast">
+                        <span>&copy;2013 sc.chinaz.com.Please don't steal!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Title</title>
+    <link href="css/global.css" rel="stylesheet"/>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/blogDetailedArticle.css">
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/global.js"></script>
+    <script>
+        $(function () {
+            $('.Totop').on('click',function () {
+                $('html,body').animate({scrollTop: '0px'}, 800);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="navBox navbar-fixed-top">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo.png" class="logo"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Sliders</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="index.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Animated Slider</span>
+                                        </a></li>
+                                        <li><a href="indexTextSlider.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Text Content Slider</span>
+                                        </a></li>
+                                        <li><a href="indexFlash.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Flash Slider</span>
+                                        </a></li>
+                                        <li><a href="indexSliderImages.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Single Image</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Pages</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="pageWithSideBar.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Page with sidebar</span>
+                                        </a></li>
+                                        <li><a href="pricingPages.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Pricing Page</span>
+                                        </a></li>
+                                        <li><a href="customFonts.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Custom fonts</span>
+                                        </a></li>
+
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Portfolio</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="portfilio_1.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Portfolio 1 column</span>
+                                        </a></li>
+                                        <li><a href="portfilio_2.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Portfolio 2 columns</span>
+                                        </a></li>
+                                        <li><a href="pageWithFullWidth.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Page with full width</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Blog</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="blog.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>My blog</span>
+                                        </a></li>
+                                        <li><a href="blogDetailedArticle.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Blog detailed article</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle aHeader" data-toggle="dropdown">Contacts</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="contacts.html">
+                                            <i class="fa fa-angle-double-right "></i>
+                                            <span>Contacts me</span>
+                                        </a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<div class="content">
+    <div class="BlogDetailedArticle">
+        <div class="benchNav">
+            <div class="container">
+                <!--<div class="row">-->
+                <div class="row my-titleLeft">
+                    <div class="col-xs-2  my-titleImg">
+                        <img src="images/icon_blog.png">
+                    </div>
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-9 my-titleCxt">
+                        <h3>Welcome to our&nbsp;<span>Blog</span></h3>
+                        <p>Page subtitle can be set from admin</p>
+                    </div>
+                </div>
+                <div class="my-titleRight pull-right">
+                    <input type="text" placeholder="Type for search">
+                    <img src="images/search_submit.png"  class="my-searchImg2 pull-right"/>
+                </div>
+                <!--</div>-->
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="title">
+                <div class="row">
+                    <h3 class="col-xs-10"><a>New project coming next month. It’s called freshFolio. See what is this whole
+                        thing all about.</a></h3>
+                    <div class="titleIcon col-xs-2">
+                        <img src="images/icon_comments.png">
+                        <a>3</a>
+                    </div>
+                </div>
+                <div class="titleData">
+                    <p><i>4 February, 2014-Food for thought</i></p>
+                </div>
+            </div>
+
+            <div class="content">
+                <img src="images/temp/blog_img_1.jpg" class="img-thumbnail">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.</p>
+                <p>These three icons below the text paragraphs are custom created for the Envision theme & the included PSD
+                    files contain all the layers needed to edit them.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.</p>
+                <p>These three icons below the text paragraphs are custom created for the Envision theme & the included PSD
+                    files contain all the layers needed to edit them.</p>
+                <img src="images/temp/blog_img_4.jpg" class="img-thumbnail">
+                <p>These three icons below the text paragraphs are custom created for the Envision theme & the included PSD
+                    files contain all the layers needed to edit them.</p>
+                <span><a>Continue reading</a></span> <span>|</span> <span><a>Join the discussion</a></span>
+            </div>
+
+            <div class="comment">
+
+                <hr style="border:1px solid #cccccc;margin-bottom: 2em">
+                <a>Add a comment</a><h4>Comments (3)</h4>
+
+                <div class="commentContent">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <img src="images/gavatar_default.jpg">
+                        </div>
+                        <div class="col-xs-10 ">
+                            <p>themefuse</p>
+                            <p>February 4, 2014</p>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+                            <a>reply</a>
+                        </div>
+                    </div>
+
+                    <hr style="border:1px solid #cccccc;margin-bottom: 2em">
+
+                    <div class="commentReply">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img src="images/icon_reply.gif" style="float: right">
+                            </div>
+                            <div class="col-xs-10 ">
+                                <img src="images/gavatar_admin.jpg">
+                                <span>themefuse</span>
+                                &nbsp;
+                                <span>February 4, 2014</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a>reply</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr style="border:1px solid #cccccc;margin-bottom: 2em">
+
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <img src="images/gavatar_default.jpg">
+                        </div>
+                        <div class="col-xs-10 ">
+                            <p>themefuse</p>
+                            <p>February 4, 2014</p>
+                            <h6>These three icons below the text paragraphs are custom created for the Envision theme & the included PSD files contain all the layers needed to edit them.</h6>
+                            <a>reply</a>
+                        </div>
+                    </div>
+
+                    <hr style="border:1px solid #cccccc;margin-bottom: 2em">
+
+                </div>
+
+                <a href="#" class="Totop">Top</a><h4>Add a comment</h4>
+
+                <div class="addComment">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name*</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Email*</label>
+                            <input type="email" class="form-control" id="exampleInputPassword1">
+                            <div class="row">
+                                <div class="col-xs-offset-4">
+                                    <p>(it will not be shared)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Website</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Message *</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <div class="row">
+                            <a class="commentBtn pull-right text-center">
+                                <span>Submit Comment</span>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+
+                <hr style="border:1px solid #cccccc;margin-bottom: 2em">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="sidebarBtn" onclick="sidebarIconClick()">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+    </div>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebarContent">
+            <h4>Categories</h4>
+            <ul class="nav nav-sidebar">
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Food for thought</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Design & Identity</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Inspiration</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Contests</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Funny stuff</span>
+                    </a>
+                </li>
+            </ul>
+            <h4>View more</h4>
+            <ul class="nav nav-sidebar">
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Typography</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Shortcodes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Easy page examples</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/ico_arrow_blue2.gif"/>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="footerBox">
+    <div class="footerHaC">
+        <div class="footerHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3  do">
+                        What we do
+                    </div>
+                    <div class="col-sm-3  are">
+                        Who we are
+                    </div>
+                    <div class="col-sm-3 work">
+                        Featured work
+                    </div>
+                    <div class="col-sm-3 blog">
+                        From our Blog
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerContent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 colSm1 doContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Interactive Technology</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Online Marketing</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Website Design</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Strategy & Analysis</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">E-Learning</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm2 areContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">About Us</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Our History</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Vision that drives us</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">The Mission</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm3 workContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Silicon App</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Art Gallery</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Bon Apetit</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Exquisite Works</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Clean Classy Corp</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 colSm4 blogContent">
+                        <ul>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Just released WS 2.3</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Not support IE6...</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Great feedback from...</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Don't ask when!</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-double-right "></i>
+                                <span><a href="#">Best tutorial on jQuery</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row rowMar">
+                    <div class="col-sm-5 colImg">
+                        <img src="images/footerImg1.png"/>
+                        <img src="images/footerImg2.png"/>
+                        <img src="images/footerImg3.png"/>
+                        <img src="images/footerImg4.png"/>
+                        <img src="images/footerImg5.png"/>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-1 colSmLast">
+                            <span>&copy;2013 sc.chinaz.com.Please don't steal!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
